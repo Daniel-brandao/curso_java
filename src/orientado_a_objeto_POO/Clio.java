@@ -4,12 +4,15 @@ public class Clio {
 
 	public static void main(String[] args) {
 		Carro_modelo clio = new Carro_modelo();
+		clio.ano = 2004;
+		clio.cor = "Preto";
 		System.out.println("Carro : clio");
 		System.out.println("Ano: " + clio.ano);
 		System.out.println("Cor: " + clio.cor);
 		clio.ligar();
 		clio.acelerar();
 		clio.desligar();
+		//teste2
 
 	}
 
