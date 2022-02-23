@@ -16,7 +16,7 @@ public class aviao_cessna {
 		cessna.ligar();
 		cessna.acelerar();
 		
-		//testando commit git
+		//testando commit git2
 		
 
 	}

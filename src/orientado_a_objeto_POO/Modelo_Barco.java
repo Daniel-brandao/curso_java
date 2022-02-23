@@ -4,7 +4,11 @@ public class Modelo_Barco  extends Carro_modelo{
 	int pes;
 	
 	void navegar () {
-		System.out.println("navegando");
+		System.out.println("navegando.....................");
+	}
+	
+	void atracar () {
+		System.out.println(".............Atracado");
 	}
 
 	
