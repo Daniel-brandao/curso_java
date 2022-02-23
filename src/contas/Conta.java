@@ -26,7 +26,12 @@ public class Conta {
 	void transferir (Conta destino, double valor) {
 		this.sacar(valor);
 		destino.deposito(valor);
-		System.out.println("Transferência no valor de R$ " + valor + "Realizada com sucessp!");
+		System.out.println("Transferência no valor de R$ " + valor + "Realizada com sucesso!");
 		
+	}
+	
+	double soma(double cc1, double cc2) {
+		double total = cc1 + cc2;
+		return total;		
 	}
 }

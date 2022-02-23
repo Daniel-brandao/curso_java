@@ -29,7 +29,12 @@ public class Pessoa_fisica {
 		cc1.exibir_saldo();
 		System.out.println("Cliente: " + cc2.cliente);
 		cc2.exibir_saldo();
-		
+		System.out.println("---------------------------------------------");
+		System.out.println("Relatório gerencial");
+		Conta gerente = new Conta();
+		double relatorio = gerente.soma(cc1.saldo, cc2.saldo);
+		System.out.println("Saldo total nas contas R$" + relatorio);
+				
 		
 	}
 
