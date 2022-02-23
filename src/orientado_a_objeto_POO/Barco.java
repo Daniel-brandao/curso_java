@@ -12,6 +12,8 @@ public class Barco {
 		System.out.println("Pes: " + barco.pes);
 		barco.navegar();
 		barco.atracar();
+		
+		
 				
 		
 
