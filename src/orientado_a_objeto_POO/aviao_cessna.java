@@ -12,7 +12,12 @@ public class aviao_cessna {
 		System.out.println("cor: " + cessna.cor);
 		System.out.println("Envergadura: " + cessna.envergadura + "m");
 		cessna.ligar();
+		cessna.desligar();
+		cessna.ligar();
 		cessna.acelerar();
+		
+		//testando commit git
+		
 
 	}
 
