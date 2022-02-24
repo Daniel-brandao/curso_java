@@ -17,7 +17,7 @@ public class Excercicio_2_calculador_de_porcentagem {
 		
 		result = (porcent * vl_inicial )/100;
 		
-		System.out.println(porcent + "% de " + vl_inicial + " é " + result);
+		System.out.println(porcent + "% de " + vl_inicial + " é " + result + " R$");
 		entra_dados.close();
 		
 		
