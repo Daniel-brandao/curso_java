@@ -21,6 +21,7 @@ public class Calcula_hora_servico {
 		result = (remu_mensal + impostos + custo_op + investimento) / hora_mensal;
 
 		System.out.println("Valor R$ horas: " + result);
+		//s
 	}
 
 }
