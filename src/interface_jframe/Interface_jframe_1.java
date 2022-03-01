@@ -14,6 +14,6 @@ public class Interface_jframe_1 {
 		 frame.setSize(400, 400);
 
 	}
-	
+
 
 }
